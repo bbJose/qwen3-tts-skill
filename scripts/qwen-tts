@@ -1,0 +1,5 @@
+#!/bin/bash
+# Qwen3-TTS 便捷调用脚本
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+python3 "$SCRIPT_DIR/tts.py" "$@"
